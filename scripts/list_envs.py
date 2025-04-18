@@ -20,7 +20,9 @@ import gymnasium as gym
 from prettytable import PrettyTable
 
 # Import extensions to set up environment tasks
+
 import IsaacLabExtensionGo2.tasks  # noqa: F401
+#import IsaacLabExtensionGo2.tasks.locomotion.velocity.config.go2
 
 
 def main():
